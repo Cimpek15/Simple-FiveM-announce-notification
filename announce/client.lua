@@ -11,7 +11,7 @@ AddEventHandler('notify', function(textureDict, textureName, flash, iconType, se
   SetNotificationTextEntry("STRING")
   SetNotificationMessage(textureDict, textureName, flash, iconType, sender, subject)
 
-  if (not HasStreamedTextureDictLoaded(textureDict))
+  if (not HasStreamedTextureDictLoaded(textureDict)) --[[ Loading the texture of the icon that will be displayed during the notification --]]
   then
     RequestStreamedTextureDict(textureDict, true)
     while (HasStreamedTextureDictLoaded(textureDict)) 
