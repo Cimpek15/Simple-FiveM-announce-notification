@@ -7,7 +7,8 @@ So welcome to my first repo. It's not too complicated. It displays an advertisem
 ![Notification](https://i.imgur.com/9blj2zK.png)
 
 
-##Change the notification icon
+## Change the notification icon
+
 In the seventh line, by changing the argument for dictionary - ```helicopterhud``` and the argument for the name of the texture - ```targetlost```, you can set any notification icon
 
 
