@@ -1,6 +1,5 @@
 # Simple FiveM announce notification
 
-**WITHOUR CONFIG**
 
 From [@Jeva](https://github.com/jevajs) tutorial
 
